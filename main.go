@@ -17,8 +17,6 @@ func main() {
 	ctx := context.Background()
 
 	setN := flag.Int("n", 3, "set the number of questions")
-	flag.Parse()
-
 	setC := flag.Int("c", 3, "set the number of commits")
 	flag.Parse()
 
