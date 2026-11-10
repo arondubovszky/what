@@ -1,7 +1,7 @@
 # TODO
 - cli
   - [ ] -c (commits num, defaults 3) 
-  - [ ] -n (number of questions, defaults 10)
+  - [x] -n (number of questions, defaults 5)
   - [ ] save location etc
   - [ ] -key "API_KEY"
 
