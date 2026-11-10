@@ -95,7 +95,7 @@ func Form(questions []Question, groupLen int) error {
 	}
 
 	var done bool
-	confirm := huh.NewConfirm().Title(title).Affirmative("Done").Negative("Restart").Value(&done)
+	confirm := huh.NewConfirm().Title(title).Affirmative("Done").Negative("Retry").Value(&done)
 	if err := huh.NewForm(huh.NewGroup(confirm)).Run(); err != nil {
 		return err
 	}

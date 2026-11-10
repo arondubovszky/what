@@ -7,9 +7,11 @@ import (
 
 	"github.com/anthropics/anthropic-sdk-go"
 	"github.com/arondubovszky/what/form"
+	"github.com/joho/godotenv"
 )
 
 func main() {
+	_ = godotenv.Load()
 	client := anthropic.NewClient()
 	ctx := context.Background()
 
